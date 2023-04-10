@@ -1,0 +1,718 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+html::-webkit-scrollbar {
+    background-color: #a5918a;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #C6BDA5;
+}
+
+.hr {
+    margin: 10px 0;
+    color: #C7ABA1;
+    border: 5px solid #554e49;
+}
+.none {
+    display: none;
+}
+
+body {
+    background-image: url("../images/background.png");
+    overflow-x: hidden;
+}
+
+
+/* navbar */
+
+
+.navv {
+    background-color: rgba(231, 216, 212, 0.9) !important;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.nav_name {
+    font-weight: 700;
+    text-shadow: 2px 2px #a5918a;
+}
+
+.navbutton {
+    outline: none;
+}
+
+.navv ul {
+    margin-left: 40px;
+}
+
+.navv ul li {
+    color: #738381;
+    font-weight: 500;
+}
+
+/* title  */
+
+#title {
+    background-image: url(../images/castle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 46em;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+/* square title */
+
+#title .square {
+    border: 15px solid #C7ABA1;
+    width: 29.5em;
+    /*27%*/height: 29.5em;
+    /*45%*/text-align: center;
+    transform: translate(40%, 30%);
+    -webkit-transform: translate(40%, 30%);
+    -moz-transform: translate(40%, 30%);
+    -ms-transform: translate(40%, 30%);
+    -o-transform: translate(40%, 30%);
+}
+
+
+
+
+/* title text */
+
+#title .square h1,h3 {
+
+    color: #F1ECED;
+}
+
+#title .square h1 {
+    text-indent: -88px;
+    padding-top: 20%;
+    font-size: 4.4em;
+    letter-spacing: 10px;
+    font-family: "droid-serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+#title .square h3 {
+
+    font-size: 2.7em;
+    margin-top: 100px;
+}
+
+.explore {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    font-weight: 900;
+}
+
+.explore a {
+
+    color: #F1ECED;
+    text-decoration: underline;
+}
+
+.explore a:hover {
+    color: #c9c3c4;
+    text-decoration: none;
+}
+
+
+/* activities section */
+
+
+/* activities section title */
+
+#activities {
+    margin-top: 30px;
+}
+
+#activities h1 {
+    text-align: center;
+    color: #C6BDA5;
+    font-size: 4.5em;
+    font-family: "droid-serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2.5px;
+    margin-bottom: 50px;
+}
+
+.act-bodrer {
+    border: 4px solid #C6BDA5;
+    border-radius: 30px;
+    padding-bottom: 11px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/* activities section images */
+
+
+#activities .images {
+    padding: 20px;
+}
+
+#activities .images img{
+    height: 481px;
+    width: 381px ;
+
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+#activities .images .forrest {
+    margin-left: 180px;
+}
+
+
+
+
+/* comfort section */
+
+#comfort {
+    background-image: url("../images/black_white.png");
+    background-size: cover;
+    background-position: 0 -66px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#comfort h1 {
+    text-align: center;
+    color: #56453A;
+    font-size: 4.5em;
+}
+
+#comfort .bedroom {
+    margin-top: 120px;
+    padding: 20px;
+
+}
+
+#comfort .bedroom .bedroomimg {
+    width: 400px;
+    height: 500px;
+
+}
+
+#comfort .bedroom .pentagon {
+
+    padding: 160px 0 0 220px;
+    
+}
+
+#comfort .bedroom .pentagon .sq {
+    border-bottom: 10px solid #C6BDA5;
+    border-right: 10px solid #C6BDA5;
+    border-left: 10px solid #C6BDA5;
+    width: 300px;
+    height: 230px;
+    margin-top: -100px;
+    margin-left: -45px;
+    text-align: center;
+}
+
+
+#comfort .bedroom .pentagon .sq h3{
+
+    color: #C7ABA1;
+    font-family: "droid-serif", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+#comfort .bedroom .pentagon .sq p{
+
+    color: #C6BDA5;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+
+
+#comfort .bedroom .pentagon .sq button {
+    background-color: transparent;
+    border: 3px solid #C7ABA1;
+    color: #C7ABA1;
+    width: 70%;
+    height: 20%;
+    font-weight: 700;
+    transition: .6s background-color, .6s color;
+    -webkit-transition: .6s background-color, .6s color;
+    -moz-transition: .6s background-color, .6s color;
+    -ms-transition: .6s background-color, .6s color;
+    -o-transition: .6s background-color, .6s color;
+}
+
+#comfort .bedroom .pentagon .sq button:hover {
+    background-color: #C7ABA1;
+    color: #56453A;
+}
+
+#comfort .bedroom .pentagon .sq button:active {
+    background-color: #a5918a;
+}
+
+
+#comfort .bedroom .pentagon .sq button a {
+    color: #C7ABA1;
+    text-decoration: none;
+}
+
+
+#comfort .bedroom .pentagon .triang {
+    border-top: 10px solid #C6BDA5;
+    border-right: 10px solid #C6BDA5;
+    width:210px;
+    height: 210px;
+    transform: rotate(-44deg);
+    -webkit-transform: rotate(-44deg);
+    -moz-transform: rotate(-44deg);
+    -ms-transform: rotate(-44deg);
+    -o-transform: rotate(-44deg);
+}
+
+
+
+
+/* footer section */
+
+#footer {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#footer .footer_container {
+
+    padding: 0 3% 0 3%;
+}
+
+#footer .footer_container .castle_pic {
+    background-image: url("../images/castle_foo.png");
+    background-repeat: no-repeat;
+    background-position: -180px;
+    background-size: cover;
+    height: 700px;
+    padding-top: 4%;
+}
+
+#footer .footer_container .castle_pic .square2 {
+    width: 100%;
+    border: 4px solid #C6BDA5;
+    margin-right: 0;
+    height: 70%;
+}
+
+#footer .footer_container .castle_pic .square2 h1 {
+
+    font-size: 4.4em;
+    font-family: "droid-serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #C6BDA5;
+    letter-spacing: 20px;
+    font-style: italic;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#footer .footer_container .castle_pic .square2 h3 {
+
+    font-size: 2.8em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: #C6BDA5;
+    text-align: right;
+    letter-spacing: 3px;
+    margin-top: 10%;
+    margin-right: 20px;
+}
+
+#footer .footer_container .footer_txt {
+    margin-top: 140px;
+    text-align: center;
+}
+
+#footer .footer_container .footer_txt h1 {
+
+    color: #C6BDA5;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 50px;
+    letter-spacing: 4px;
+}
+
+
+#footer .footer_container .footer_txt button {
+    background-color: transparent;
+    color: #C6BDA5;
+    border: 3px solid #C6BDA5;
+    margin-top: 100px;
+    width: 60%;
+    height: 80px;
+    font-size: 2em;
+    font-weight: 700;
+    transition: .6s background-color, .6s color;
+    -webkit-transition: .6s background-color, .6s color;
+    -moz-transition: .6s background-color, .6s color;
+    -ms-transition: .6s background-color, .6s color;
+    -o-transition: .6s background-color, .6s color;
+}
+
+#footer .footer_container .footer_txt button:hover {
+    background-color: #C6BDA5;
+    color: #56453A;
+}
+
+#footer .footer_container .footer_txt button:active {
+
+    background-color: #948e7e;
+}
+
+
+#footer .footer_container .footer_txt button a {
+    color: #C6BDA5;
+    text-decoration: none;
+    
+}
+
+
+
+/* small laptop screens */
+@media (min-width:991.9px) and (max-width: 1520px) {
+
+
+    /* title section */
+
+    #title {
+        height: 53em;
+    }
+
+    .explore {
+        bottom: 100px;
+        right: 30px;
+    }
+
+
+    /* #activities section */
+
+
+    /* comfort section */
+
+    #comfort h1 {
+
+        font-size: 3em;
+    }
+    #comfort .bedroom .pentagon {
+        padding-left: 100px;
+    }
+
+
+
+    /* foorter section */
+
+    #footer .footer_container .castle_pic .square2 h1 {
+
+        font-size: 2.6em;
+        margin-top: 50px;
+        letter-spacing: 20px;
+    }
+
+    #footer .footer_container .castle_pic .square2 h3 {
+        font-size: 1.8em;
+    }
+
+}
+
+
+/* tablet */
+@media (min-width:767.9px) and (max-width: 991.9px) {
+
+
+    /* navbar */
+
+        nav {
+            flex-direction: column;
+        }
+
+        .navv {
+            padding-bottom: 10px;
+        }
+
+        .nav_name {
+            margin-bottom: 20px;
+        }
+
+        .navv ul {
+            margin-top: 20px;
+            align-items: center;
+            margin-left: 0;
+        }
+
+
+
+    #title {
+        background-position: 20%;
+        height: 52em;
+    }
+
+    #title .square {
+        width: 27.5;
+        height: 27.5;
+        transform: translate(30%, 30%);
+        -webkit-transform: translate(30%, 30%);
+        -moz-transform: translate(30%, 30%);
+        -ms-transform: translate(30%, 30%);
+        -o-transform: translate(30%, 30%);
+    }
+
+    .explore {
+        bottom: 80px;
+        right: 30px;
+    }
+
+
+    /* #activities section */
+
+    #activities .images {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #activities .images .forrest {
+        margin-left: 0;
+    }
+
+    #activities .images .swim {
+        margin-top: 20px;
+    }
+
+
+    /* comfort section */
+
+    #comfort {
+        background-position: 0 -139px;
+    }
+
+    #comfort h1{
+        font-size: 2.5em;
+        padding-top: 20px;
+    }
+
+    #comfort .bedroom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #comfort .bedroom .pentagon {
+        padding-left: 100px;
+        padding-top: 70px;
+    }
+
+
+    /* footer section */
+
+    #footer .footer_container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footer .footer_container .castle_pic .square2 h1 {
+
+        margin-top: 50px;
+        font-size: 2em;
+    }
+    
+    #footer .footer_container .castle_pic .square2 h3 {
+        font-size: 1.8em;
+    }
+
+    #footer .footer_container .footer_txt h1 {
+
+        margin-top: -270px;
+    }
+}
+
+
+/* phone */
+@media (max-width: 767.9px) {
+
+
+        /* navbar */
+
+        nav {
+            flex-direction: column;
+        }
+
+        .nav_name {
+
+            font-family: "droid-serif", serif;
+            font-weight: 900;
+            font-style: normal;
+            margin-bottom: 20px;
+        }
+
+        .navv ul {
+            margin-left: 0;
+            margin-top: 20px;
+            align-items: center;
+        }
+
+    /* title section */
+
+    #title {
+        background-position: 45%;
+        height: 55em;
+    }
+
+    #title .square {
+        border: 10px solid #C7ABA1;
+        width: 11.5em;
+        height: 19.5em;
+        margin: auto;
+        transform: translate(0, 130%);
+        -webkit-transform: translate(0, 130%);
+        -moz-transform: translate(0, 130%);
+        -ms-transform: translate(0, 130%);
+        -o-transform: translate(0, 130%);
+}
+
+    #title .square h1 {
+        padding-top: 30%;
+        font-size: 32px;
+        
+    }
+    
+    #title .square h3 {
+
+        font-size: 24px;
+
+    }
+
+    .explore {
+        position: static;
+        margin-top: 450px;
+    }
+
+
+    /* #activities section */
+
+    #activities h1 {
+        font-size: 2.5em;
+    }
+
+    #activities .images {
+        margin-right: 0;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    #activities .images img {
+        margin-bottom: 20px;
+        
+}
+
+    #activities .images .forrest {
+        margin-left: 0;
+    }
+
+
+    /* comfort section */
+    
+    #comfort {
+        background-position: -280px -172px;
+    }
+    #comfort h1 {
+        font-size: 2em;
+        padding-top: 20px;
+    }
+
+    #comfort .bedroom {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #comfort .bedroom .bedroomimg {
+
+        flex-wrap: wrap;
+        width: 100%;
+        height: 300px;
+    }
+
+    #comfort .bedroom {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #comfort .bedroom .pentagon {
+        padding: 0;
+        width: 200px;
+        margin-top: 70px;
+    }
+
+
+    /* footer section */
+
+    #footer .footer_container .castle_pic .square2 h1 {
+        font-size: 1.8em;
+        margin-top: 50px;
+        text-align: center;
+        line-height: 60px;
+        white-space: normal;
+    }
+
+    #footer .footer_container .castle_pic .square2 h3 {
+
+        font-size: 1em;
+        letter-spacing: 5px;
+    }
+
+
+    #footer .footer_container .footer_txt h1 {
+
+        font-size: 1.2em;
+        margin-top: -270px;
+    }
+
+    #footer .footer_container .footer_txt button {
+
+        margin-top: 50px;
+        width: 40%;
+        height: 60px;
+        font-size: 1.2em;
+    }
+}
